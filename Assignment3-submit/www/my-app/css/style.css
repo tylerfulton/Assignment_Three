@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/Orbitron Medium.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    overflow: hidden;
+    margin:0;
+    background-color: black;
+}
+#atlanticMap, #easternMap, #centralMap, #mountainMap, #pacificMap > circle {
+	fill: lightgray;
+}
+.cgy > circle {
+	fill: #FFCC66;
+}
+.edm > circle {
+	fill: #FF3300;
+}
+.mtl > circle {
+	fill: #AF1E2D;
+}
+.tor > circle {
+	fill: #003876;
+}
+.ott > circle {
+	fill: #BF910C;
+}
+.van > circle {
+	fill: #008752;
+}
+.wpg > circle {
+	fill: #041E41;
+}
+.contested > circle {
+	fill: #666666;
+}
+#map {
+	transform: translateY(-50px);
+	width: 37%;
+	margin: 0 auto;
+}
+
+#barGraph {
+	margin: 0 auto;
+	width: 50%;
+}
+#cgyBar {
+	height: 10px;
+	width: 100%;
+	background-color: #FFCC66;
+}
+#edmBar {
+	height: 10px;
+	width: 100%;
+	background-color: #FF3300;
+}
+#mtlBar {
+	height: 10px;
+	width: 100%;
+	background-color: #AF1E2D;
+}
+#torBar {
+	height: 10px;
+	width: 100%;
+	background-color: #003876;
+}
+#ottBar {
+	height: 10px;
+	width: 100%;
+	background-color: #BF910C;
+}
+#vanBar {
+	height: 10px;
+	width: 100%;
+	background-color: #008752;
+}
+#wpgBar {
+	height: 10px;
+	width: 100%;
+	background-color: #041E41;
+}
+p {
+	font-family: Orbitron;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	margin: 0;
+}
+h1 {
+	font-family: Orbitron;
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}

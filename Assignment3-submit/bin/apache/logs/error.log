@@ -1,0 +1,204 @@
+[Wed Jan 24 12:06:11.280794 2018] [ssl:warn] [pid 3892:tid 236] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 12:06:11.296395 2018] [ssl:warn] [pid 3892:tid 236] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 12:06:11.592806 2018] [ssl:warn] [pid 3892:tid 236] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Jan 24 12:06:11.592806 2018] [ssl:warn] [pid 3892:tid 236] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 12:06:11.592806 2018] [ssl:warn] [pid 3892:tid 236] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 12:06:19.598914 2018] [mpm_winnt:notice] [pid 3892:tid 236] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Wed Jan 24 12:06:19.598914 2018] [mpm_winnt:notice] [pid 3892:tid 236] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Jan 24 12:06:19.598914 2018] [core:notice] [pid 3892:tid 236] AH00094: Command line: 'D:\\tylerfulton_dynamicweb\\UwAmp\\UwAmp\\bin\\apache\\bin\\httpd.exe -d D:/tylerfulton_dynamicweb/UwAmp/UwAmp/bin/apache -f D:\\tylerfulton_dynamicweb\\UwAmp\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Jan 24 12:06:19.645716 2018] [mpm_winnt:notice] [pid 3892:tid 236] AH00418: Parent: Created child process 9168
+[Wed Jan 24 12:06:20.347743 2018] [ssl:warn] [pid 9168:tid 248] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 12:06:20.347743 2018] [ssl:warn] [pid 9168:tid 248] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 12:06:20.597353 2018] [ssl:warn] [pid 9168:tid 248] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Jan 24 12:06:20.597353 2018] [ssl:warn] [pid 9168:tid 248] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 12:06:20.597353 2018] [ssl:warn] [pid 9168:tid 248] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 12:06:20.628554 2018] [mpm_winnt:notice] [pid 9168:tid 248] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 24 12:16:20.696037 2018] [:error] [pid 9168:tid 1004] [client ::1:52891] PHP Warning:  include(header.php): failed to open stream: No such file or directory in D:\\tylerfulton_dynamicweb\\UwAmp\\UwAmp\\www\\my-app\\index.php on line 4, referer: http://localhost/
+[Wed Jan 24 12:16:20.696037 2018] [:error] [pid 9168:tid 1004] [client ::1:52891] PHP Stack trace:, referer: http://localhost/
+[Wed Jan 24 12:16:20.696037 2018] [:error] [pid 9168:tid 1004] [client ::1:52891] PHP   1. {main}() D:\\tylerfulton_dynamicweb\\UwAmp\\UwAmp\\www\\my-app\\index.php:0, referer: http://localhost/
+[Wed Jan 24 12:16:20.705035 2018] [:error] [pid 9168:tid 1004] [client ::1:52891] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.;C:\\php\\pear') in D:\\tylerfulton_dynamicweb\\UwAmp\\UwAmp\\www\\my-app\\index.php on line 4, referer: http://localhost/
+[Wed Jan 24 12:16:20.705035 2018] [:error] [pid 9168:tid 1004] [client ::1:52891] PHP Stack trace:, referer: http://localhost/
+[Wed Jan 24 12:16:20.705035 2018] [:error] [pid 9168:tid 1004] [client ::1:52891] PHP   1. {main}() D:\\tylerfulton_dynamicweb\\UwAmp\\UwAmp\\www\\my-app\\index.php:0, referer: http://localhost/
+[Wed Jan 24 14:42:47.577463 2018] [mpm_winnt:crit] [pid 9168:tid 248] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Jan 24 21:37:23.384735 2018] [ssl:warn] [pid 21368:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 21:37:23.386736 2018] [ssl:warn] [pid 21368:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 21:37:23.487819 2018] [core:warn] [pid 21368:tid 652] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 24 21:37:23.605032 2018] [ssl:warn] [pid 21368:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Jan 24 21:37:23.606033 2018] [ssl:warn] [pid 21368:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 21:37:23.606033 2018] [ssl:warn] [pid 21368:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 21:37:47.455900 2018] [mpm_winnt:notice] [pid 21368:tid 652] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Wed Jan 24 21:37:47.455900 2018] [mpm_winnt:notice] [pid 21368:tid 652] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Jan 24 21:37:47.455900 2018] [core:notice] [pid 21368:tid 652] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Jan 24 21:37:47.509593 2018] [mpm_winnt:notice] [pid 21368:tid 652] AH00418: Parent: Created child process 18380
+[Wed Jan 24 21:37:47.983928 2018] [ssl:warn] [pid 18380:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 21:37:47.984930 2018] [ssl:warn] [pid 18380:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 21:37:48.131143 2018] [ssl:warn] [pid 18380:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Jan 24 21:37:48.132144 2018] [ssl:warn] [pid 18380:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 24 21:37:48.132144 2018] [ssl:warn] [pid 18380:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 24 21:37:48.150158 2018] [mpm_winnt:notice] [pid 18380:tid 648] AH00354: Child: Starting 64 worker threads.
+[Thu Jan 25 20:10:43.774080 2018] [ssl:warn] [pid 21492:tid 704] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 25 20:10:43.779176 2018] [ssl:warn] [pid 21492:tid 704] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 25 20:10:43.908697 2018] [core:warn] [pid 21492:tid 704] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 25 20:10:44.120919 2018] [ssl:warn] [pid 21492:tid 704] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jan 25 20:10:44.121421 2018] [ssl:warn] [pid 21492:tid 704] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 25 20:10:44.121421 2018] [ssl:warn] [pid 21492:tid 704] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 25 20:10:45.378310 2018] [mpm_winnt:notice] [pid 21492:tid 704] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Thu Jan 25 20:10:45.378310 2018] [mpm_winnt:notice] [pid 21492:tid 704] AH00456: Server built: Jan 28 2016 09:58:25
+[Thu Jan 25 20:10:45.378310 2018] [core:notice] [pid 21492:tid 704] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Thu Jan 25 20:10:45.437367 2018] [mpm_winnt:notice] [pid 21492:tid 704] AH00418: Parent: Created child process 10344
+[Thu Jan 25 20:10:46.011568 2018] [ssl:warn] [pid 10344:tid 720] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 25 20:10:46.012068 2018] [ssl:warn] [pid 10344:tid 720] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 25 20:10:46.202581 2018] [ssl:warn] [pid 10344:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Jan 25 20:10:46.203074 2018] [ssl:warn] [pid 10344:tid 720] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 25 20:10:46.203074 2018] [ssl:warn] [pid 10344:tid 720] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 25 20:10:46.275114 2018] [mpm_winnt:notice] [pid 10344:tid 720] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 28 17:18:28.888495 2018] [ssl:warn] [pid 9520:tid 724] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 17:18:28.899789 2018] [ssl:warn] [pid 9520:tid 724] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 17:18:28.981533 2018] [core:warn] [pid 9520:tid 724] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 28 17:18:29.127112 2018] [ssl:warn] [pid 9520:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Jan 28 17:18:29.129614 2018] [ssl:warn] [pid 9520:tid 724] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 17:18:29.129614 2018] [ssl:warn] [pid 9520:tid 724] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 17:18:54.666424 2018] [mpm_winnt:notice] [pid 9520:tid 724] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Sun Jan 28 17:18:54.666424 2018] [mpm_winnt:notice] [pid 9520:tid 724] AH00456: Server built: Jan 28 2016 09:58:25
+[Sun Jan 28 17:18:54.666424 2018] [core:notice] [pid 9520:tid 724] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sun Jan 28 17:18:54.712930 2018] [mpm_winnt:notice] [pid 9520:tid 724] AH00418: Parent: Created child process 8848
+[Sun Jan 28 17:18:55.250390 2018] [ssl:warn] [pid 8848:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 17:18:55.251890 2018] [ssl:warn] [pid 8848:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 17:18:55.402062 2018] [ssl:warn] [pid 8848:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Jan 28 17:18:55.402563 2018] [ssl:warn] [pid 8848:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 28 17:18:55.402563 2018] [ssl:warn] [pid 8848:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 28 17:18:55.427256 2018] [mpm_winnt:notice] [pid 8848:tid 652] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 28 20:07:41.067157 2018] [:error] [pid 8848:tid 1356] [client ::1:54002] PHP Notice:  Undefined variable: active_class in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\includes\\header.php on line 5, referer: http://localhost/
+[Sun Jan 28 20:07:41.067157 2018] [:error] [pid 8848:tid 1356] [client ::1:54002] PHP Stack trace:, referer: http://localhost/
+[Sun Jan 28 20:07:41.067157 2018] [:error] [pid 8848:tid 1356] [client ::1:54002] PHP   1. {main}() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\index.php:0, referer: http://localhost/
+[Sun Jan 28 20:07:41.067157 2018] [:error] [pid 8848:tid 1356] [client ::1:54002] PHP   2. include() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\index.php:12, referer: http://localhost/
+[Sun Jan 28 20:07:48.758542 2018] [:error] [pid 8848:tid 1356] [client ::1:54003] PHP Notice:  Undefined variable: active_class in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\includes\\header.php on line 5, referer: http://localhost/
+[Sun Jan 28 20:07:48.758542 2018] [:error] [pid 8848:tid 1356] [client ::1:54003] PHP Stack trace:, referer: http://localhost/
+[Sun Jan 28 20:07:48.758542 2018] [:error] [pid 8848:tid 1356] [client ::1:54003] PHP   1. {main}() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\index.php:0, referer: http://localhost/
+[Sun Jan 28 20:07:48.759543 2018] [:error] [pid 8848:tid 1356] [client ::1:54003] PHP   2. include() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\index.php:12, referer: http://localhost/
+[Sun Jan 28 20:08:03.958747 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP Notice:  Undefined variable: active_class in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\includes\\header.php on line 5, referer: http://localhost/my-app/
+[Sun Jan 28 20:08:03.958747 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP Stack trace:, referer: http://localhost/my-app/
+[Sun Jan 28 20:08:03.958747 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP   1. {main}() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\article1.php:0, referer: http://localhost/my-app/
+[Sun Jan 28 20:08:03.958747 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP   2. include() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\article1.php:13, referer: http://localhost/my-app/
+[Sun Jan 28 20:08:03.995758 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP Notice:  Undefined variable: active_class in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\includes\\header.php on line 5, referer: http://localhost/my-app/article1.php
+[Sun Jan 28 20:08:03.995758 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP Stack trace:, referer: http://localhost/my-app/article1.php
+[Sun Jan 28 20:08:03.995758 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP   1. {main}() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\article1.php:0, referer: http://localhost/my-app/article1.php
+[Sun Jan 28 20:08:03.995758 2018] [:error] [pid 8848:tid 1356] [client ::1:54007] PHP   2. include() F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\article1.php:13, referer: http://localhost/my-app/article1.php
+[Sun Jan 28 21:39:36.612653 2018] [mpm_winnt:crit] [pid 8848:tid 652] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Mar 20 20:30:25.714840 2018] [ssl:warn] [pid 244:tid 672] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 20 20:30:25.729654 2018] [ssl:warn] [pid 244:tid 672] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 20 20:30:25.822655 2018] [core:warn] [pid 244:tid 672] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 20 20:30:25.978138 2018] [ssl:warn] [pid 244:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 20 20:30:25.979140 2018] [ssl:warn] [pid 244:tid 672] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 20 20:30:25.979140 2018] [ssl:warn] [pid 244:tid 672] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 20 20:30:55.214387 2018] [mpm_winnt:notice] [pid 244:tid 672] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Tue Mar 20 20:30:55.214387 2018] [mpm_winnt:notice] [pid 244:tid 672] AH00456: Server built: Jan 28 2016 09:58:25
+[Tue Mar 20 20:30:55.214387 2018] [core:notice] [pid 244:tid 672] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Tue Mar 20 20:30:55.251755 2018] [mpm_winnt:notice] [pid 244:tid 672] AH00418: Parent: Created child process 1208
+[Tue Mar 20 20:30:55.734858 2018] [ssl:warn] [pid 1208:tid 676] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 20 20:30:55.734858 2018] [ssl:warn] [pid 1208:tid 676] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 20 20:30:55.932850 2018] [ssl:warn] [pid 1208:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 20 20:30:55.933850 2018] [ssl:warn] [pid 1208:tid 676] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Mar 20 20:30:55.933850 2018] [ssl:warn] [pid 1208:tid 676] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 20 20:30:56.059071 2018] [mpm_winnt:notice] [pid 1208:tid 676] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 20 20:31:12.590337 2018] [:error] [pid 1208:tid 1328] [client ::1:51606] PHP Fatal error:  Uncaught exception 'Exception' with message 'SSL certificate problem: unable to get local issuer certificate' in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\TwitterAPIExchange.php:321\nStack trace:\n#0 F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\get_tweets.php(19): TwitterAPIExchange->performRequest()\n#1 {main}\n  thrown in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\TwitterAPIExchange.php on line 321, referer: http://localhost/my-app/
+[Tue Mar 20 20:32:32.671539 2018] [:error] [pid 1208:tid 1328] [client ::1:51714] PHP Fatal error:  Uncaught exception 'Exception' with message 'SSL certificate problem: unable to get local issuer certificate' in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\TwitterAPIExchange.php:321\nStack trace:\n#0 F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\get_tweets.php(19): TwitterAPIExchange->performRequest()\n#1 {main}\n  thrown in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\TwitterAPIExchange.php on line 321, referer: http://localhost/my-app/
+[Wed Mar 21 12:11:10.331676 2018] [ssl:warn] [pid 9064:tid 232] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:11:10.349677 2018] [ssl:warn] [pid 9064:tid 232] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:11:10.963739 2018] [core:warn] [pid 9064:tid 232] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 12:11:11.162759 2018] [ssl:warn] [pid 9064:tid 232] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:11:11.164759 2018] [ssl:warn] [pid 9064:tid 232] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:11:11.164759 2018] [ssl:warn] [pid 9064:tid 232] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:11:59.060037 2018] [mpm_winnt:notice] [pid 9064:tid 232] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Wed Mar 21 12:11:59.061038 2018] [mpm_winnt:notice] [pid 9064:tid 232] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Mar 21 12:11:59.061038 2018] [core:notice] [pid 9064:tid 232] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Mar 21 12:11:59.064038 2018] [mpm_winnt:notice] [pid 9064:tid 232] AH00418: Parent: Created child process 8064
+[Wed Mar 21 12:11:59.841092 2018] [ssl:warn] [pid 8064:tid 244] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:11:59.841092 2018] [ssl:warn] [pid 8064:tid 244] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:12:00.046700 2018] [ssl:warn] [pid 8064:tid 244] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:12:00.047700 2018] [ssl:warn] [pid 8064:tid 244] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:12:00.047700 2018] [ssl:warn] [pid 8064:tid 244] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:12:00.100706 2018] [mpm_winnt:notice] [pid 8064:tid 244] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 21 12:13:37.591224 2018] [ssl:warn] [pid 1912:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:13:37.591224 2018] [ssl:warn] [pid 1912:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:13:37.653626 2018] [core:warn] [pid 1912:tid 228] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 12:13:37.778429 2018] [ssl:warn] [pid 1912:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:13:37.778429 2018] [ssl:warn] [pid 1912:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:13:37.778429 2018] [ssl:warn] [pid 1912:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:14:18.667363 2018] [mpm_winnt:notice] [pid 1912:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Mar 21 12:14:18.667363 2018] [mpm_winnt:notice] [pid 1912:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Mar 21 12:14:18.667363 2018] [core:notice] [pid 1912:tid 228] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Mar 21 12:14:18.667363 2018] [mpm_winnt:notice] [pid 1912:tid 228] AH00418: Parent: Created child process 3796
+[Wed Mar 21 12:14:19.291379 2018] [ssl:warn] [pid 3796:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:14:19.291379 2018] [ssl:warn] [pid 3796:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:14:19.462983 2018] [ssl:warn] [pid 3796:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:14:19.462983 2018] [ssl:warn] [pid 3796:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:14:19.462983 2018] [ssl:warn] [pid 3796:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:14:19.509784 2018] [mpm_winnt:notice] [pid 3796:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 21 12:17:13.410572 2018] [mpm_winnt:crit] [pid 3796:tid 240] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Mar 21 12:17:16.249845 2018] [ssl:warn] [pid 7676:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:16.249845 2018] [ssl:warn] [pid 7676:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:16.296646 2018] [core:warn] [pid 7676:tid 228] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 12:17:16.452650 2018] [ssl:warn] [pid 7676:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:17:16.452650 2018] [ssl:warn] [pid 7676:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:16.452650 2018] [ssl:warn] [pid 7676:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:16.499451 2018] [mpm_winnt:notice] [pid 7676:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Mar 21 12:17:16.499451 2018] [mpm_winnt:notice] [pid 7676:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Mar 21 12:17:16.499451 2018] [core:notice] [pid 7676:tid 228] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Mar 21 12:17:16.499451 2018] [mpm_winnt:notice] [pid 7676:tid 228] AH00418: Parent: Created child process 7900
+[Wed Mar 21 12:17:17.092290 2018] [ssl:warn] [pid 7900:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:17.093290 2018] [ssl:warn] [pid 7900:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:17.314300 2018] [ssl:warn] [pid 7900:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:17:17.314300 2018] [ssl:warn] [pid 7900:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:17.314300 2018] [ssl:warn] [pid 7900:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:17.361101 2018] [mpm_winnt:notice] [pid 7900:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 21 12:17:27.491366 2018] [ssl:warn] [pid 2888:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:27.491366 2018] [ssl:warn] [pid 2888:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:27.787774 2018] [core:warn] [pid 2888:tid 228] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 12:17:27.943778 2018] [ssl:warn] [pid 2888:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:17:27.943778 2018] [ssl:warn] [pid 2888:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:27.943778 2018] [ssl:warn] [pid 2888:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:27.974979 2018] [mpm_winnt:notice] [pid 2888:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Mar 21 12:17:27.974979 2018] [mpm_winnt:notice] [pid 2888:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Mar 21 12:17:27.974979 2018] [core:notice] [pid 2888:tid 228] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Mar 21 12:17:27.974979 2018] [mpm_winnt:notice] [pid 2888:tid 228] AH00418: Parent: Created child process 4224
+[Wed Mar 21 12:17:28.645796 2018] [ssl:warn] [pid 4224:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:28.645796 2018] [ssl:warn] [pid 4224:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:28.801800 2018] [ssl:warn] [pid 4224:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 12:17:28.801800 2018] [ssl:warn] [pid 4224:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 12:17:28.801800 2018] [ssl:warn] [pid 4224:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 12:17:28.848601 2018] [mpm_winnt:notice] [pid 4224:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 21 13:11:06.344549 2018] [ssl:warn] [pid 7200:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 13:11:06.360150 2018] [ssl:warn] [pid 7200:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 13:11:06.438152 2018] [core:warn] [pid 7200:tid 228] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 13:11:06.609756 2018] [ssl:warn] [pid 7200:tid 228] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 13:11:06.609756 2018] [ssl:warn] [pid 7200:tid 228] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 13:11:06.609756 2018] [ssl:warn] [pid 7200:tid 228] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 13:11:08.528605 2018] [mpm_winnt:notice] [pid 7200:tid 228] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Mar 21 13:11:08.528605 2018] [mpm_winnt:notice] [pid 7200:tid 228] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Mar 21 13:11:08.528605 2018] [core:notice] [pid 7200:tid 228] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Mar 21 13:11:08.528605 2018] [mpm_winnt:notice] [pid 7200:tid 228] AH00418: Parent: Created child process 8708
+[Wed Mar 21 13:11:09.183822 2018] [ssl:warn] [pid 8708:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 13:11:09.183822 2018] [ssl:warn] [pid 8708:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 13:11:09.355427 2018] [ssl:warn] [pid 8708:tid 240] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 21 13:11:09.355427 2018] [ssl:warn] [pid 8708:tid 240] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Mar 21 13:11:09.355427 2018] [ssl:warn] [pid 8708:tid 240] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 21 13:11:09.402228 2018] [mpm_winnt:notice] [pid 8708:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 21 13:43:05.248789 2018] [mpm_winnt:crit] [pid 8708:tid 240] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 24 12:58:07.437807 2018] [ssl:warn] [pid 66916:tid 696] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 24 12:58:07.452819 2018] [ssl:warn] [pid 66916:tid 696] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 24 12:58:07.573207 2018] [core:warn] [pid 66916:tid 696] AH00098: pid file F:/year3_sem2/dynamic_web/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 24 12:58:07.714690 2018] [ssl:warn] [pid 66916:tid 696] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 24 12:58:07.715691 2018] [ssl:warn] [pid 66916:tid 696] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 24 12:58:07.715691 2018] [ssl:warn] [pid 66916:tid 696] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 24 12:58:35.318499 2018] [mpm_winnt:notice] [pid 66916:tid 696] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Sat Mar 24 12:58:35.318499 2018] [mpm_winnt:notice] [pid 66916:tid 696] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Mar 24 12:58:35.318499 2018] [core:notice] [pid 66916:tid 696] AH00094: Command line: 'F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\bin\\httpd.exe -d F:/year3_sem2/dynamic_web/UwAmp/bin/apache -f F:\\year3_sem2\\dynamic_web\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Mar 24 12:58:35.358532 2018] [mpm_winnt:notice] [pid 66916:tid 696] AH00418: Parent: Created child process 71648
+[Sat Mar 24 12:58:35.882062 2018] [ssl:warn] [pid 71648:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 24 12:58:35.882062 2018] [ssl:warn] [pid 71648:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 24 12:58:36.027665 2018] [ssl:warn] [pid 71648:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 24 12:58:36.028666 2018] [ssl:warn] [pid 71648:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 24 12:58:36.028666 2018] [ssl:warn] [pid 71648:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Mar 24 12:58:36.046372 2018] [mpm_winnt:notice] [pid 71648:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 24 13:22:40.030633 2018] [:error] [pid 71648:tid 1312] [client ::1:65132] PHP Fatal error:  Uncaught Exception: Failed to connect to api.twitter.com port 443: Timed out in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\TwitterAPIExchange.php:321\nStack trace:\n#0 F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\get_tweets.php(19): TwitterAPIExchange->performRequest()\n#1 {main}\n  thrown in F:\\year3_sem2\\dynamic_web\\UwAmp\\www\\my-app\\TwitterAPIExchange.php on line 321, referer: http://localhost/my-app/
